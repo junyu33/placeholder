@@ -1,11 +1,5 @@
 [[redirects]]
-  from = "/.well-known/acme-challenge/*"
-  to = "/index.html"
+  from = "/*"
+  to = "https://rdp.junyu33.me:30443/:splat"
   status = 200
-
-[[redirects]]
-  from = "*"
-  to = "/index.html"
-  status = 200
-
 
