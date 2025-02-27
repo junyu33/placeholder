@@ -1,9 +1,11 @@
 [[redirects]]
-  from = "/.well-known/*"
+  from = "/.well-known/acme-challenge/*"
   to = "/index.html"
-  status = 200
+  status = 301
 
 [[redirects]]
   from = "/*"
   to = "/index.html"
-  status = 200
+  status = 301
+
+
